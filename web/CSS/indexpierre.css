@@ -1,0 +1,133 @@
+body {
+    margin-top: 100px;
+    min-height: 100vh;
+    background: linear-gradient(5deg, #25ddf5, crimson, orange, #53f, blueviolet);
+        font-family: 'serif'*;
+        font-size: 10px;
+
+}
+
+h1{
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+
+}
+
+
+header nav{
+    background-color: linear-gradient(45deg, blueviolet, crimson);
+    height:  100px;
+
+}
+
+header nav ul {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+header nav ul li {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+
+    border-right: 1px;
+    border-right-style:solid;
+    border-right-color: #00000033; 
+}
+
+header nav ul li a {
+    padding: 0 20px;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    text-decoration: none;
+    font-size: 4.2em;
+
+    transition: background-color 0.2s linear;
+}
+
+header nav ul li a {
+    height: 100%;
+    width: 100%;
+
+    padding: 0 20px;
+
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+header nav ul li a:hover {
+    color: #ff8300;
+    background-color: #00000033;
+    transition: all 1,5s linear;
+}
+
+header {
+  background: linear-gradient(45deg, blueviolet, crimson);
+  height: 80px;
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: -24px;
+}
+
+@media screen and (max-width: 780px){
+    header {
+        height: 50px; 
+    }
+    h1 {
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a {
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+footer {
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-top: 2px solid #AAAA
+
+}
+
+section {
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+.sec {
+    margin: 0px 10%;
+}

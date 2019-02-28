@@ -1,0 +1,52 @@
+@media screen and (max-width: 750px){
+	body{
+		background-image: url(https://cdn.lynda.com/static/landing/images/hero/becomeawebdeveloper_LP_1200x630-1521738827875.jpg);
+	}
+	.intero h1{
+		display: block;
+		padding: 15px;
+	}
+	.intero h2{
+		display: block;
+		padding: 15px;
+	}
+	.intero h3{
+		display: block;
+		padding: 15px;
+	}
+} 
+
+
+@media screen and (orientation:landscape){
+	body{
+		background-image: url(https://cdn.lynda.com/static/landing/images/hero/becomeawebdeveloper_LP_1200x630-1521738827875.jpg);
+	}
+} 
+
+.intero h1{
+	font-size: 72px;
+	font-style: oblique;
+	margin-left: 100px;
+	line-height: 0px;
+	color: black;
+}
+
+.intero h2{
+	font-size: 100px;
+	font-style: italic;
+	margin-left: 100px;
+	line-height: 0px;
+	color: black;
+
+}
+
+.intero h3{
+	font-style: italic;
+	margin-left: 100px;
+	line-height: 0px;
+	color: black;
+}
+
+
+
+
