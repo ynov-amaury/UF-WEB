@@ -1,0 +1,105 @@
+
+
+
+header nav {
+    background-color: #CFD8DC;
+    height: 100px;
+}
+
+header nav ul {
+    height: 100%;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    height: 100px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #00000033;
+}
+
+header nav ul li a {
+    padding: 0 20px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    transition: background-color 0.2s linear;
+}
+
+header nav ul li a:hover {
+    background-color: #00000015;
+}
+
+header nav ul li:nth-child(1){
+    background-color: #008080;
+}
+
+header nav ul li:nth-child(2){
+    background-color: #b90162;
+}
+
+header nav ul li:nth-child(3){
+    background-color: red;
+}
+
+header nav ul li:nth-child(4){
+    background-color: #5F9EA0;
+}
+
+header nav ul li:nth-child(5){
+    background-color: #8FBC8F;
+}
+
+header nav ul li:nth-child(5){
+    background-color: #00FF00;
+}
+
+header nav ul li:nth-child(6){
+    background-color: #00FFFF;
+}
+
+.presentation h1{
+    font-size: 72px;
+    font-style: oblique;
+    margin-left: 100px;
+    line-height: 0px;
+    display: block;
+}
+
+.coor{
+    font-style: oblique;
+    margin-left: 100px;
+    line-height: 0px;
+    display: block;
+}
+
+#compétence{
+    background-color: #f9f9f9;
+    position: relative;
+
+}
+
+.col-sm-8{
+    margin-left: 100px;
+}
+
+.competence-lingus{
+    margin-left: 100px;
+}
+
+#Accueil{
+  height: 100%;
+  width: 100%;
+  background-image: url(http://clipart-library.com/images/8i65BEbMT.jpg);
+  position: relative;
+}
+
+
+
